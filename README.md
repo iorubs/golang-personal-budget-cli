@@ -11,15 +11,5 @@ Once setup, tests can be run with the following command:
 
 ### Running with Docker
 
-To build the image from the Dockerfile, run:
-
-`docker build -t project-budget-app .`
-
-To start an interactive shell, run:
-
-`docker run -it --rm --name run-budget project-budget-app`
-
-From inside the shell, run the tests with:
-
-`go test -v ./module1/ ./module2/`
-
+1. docker-compose run --rm temp sh
+3. Follow Testing steps
